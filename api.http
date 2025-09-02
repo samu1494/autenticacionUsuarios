@@ -1,0 +1,50 @@
+###POST -  CREATE USER
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "sql": "select * from users",
+  "name": "samuDev14",
+  "password": "progra10",
+  "tipo": 1
+}
+
+###POST -  CREATE USER
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "sql": "select * from users",
+  "name": "nuevUser",
+  "password": "progra10",
+  "tipo": 2
+}
+
+###POST -  CREATE USER, tipo por defecto 3
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "sql": "select * from users",
+  "name": "nuevoColaborador",
+  "password": "vivoVida69"
+}
+
+
+###POST -  VALIDATE USER
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "name": "samuDev14",
+  "password": "progra10"
+}
+
+###POST -  VALIDATE USER - no valid
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "name": "nuevoColaborador1",
+  "password": "vivoVida"
+}

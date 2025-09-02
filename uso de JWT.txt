@@ -1,0 +1,8 @@
+paso 1) visitar la pagina:
+https://www.jwt.io/
+
+paso 2) isntalar la libreria:
+npm install jsonwebtoken
+
+paso 3) para garantizar la seguridad de las rutas protegidas, instalar
+npm install cookie-parser 

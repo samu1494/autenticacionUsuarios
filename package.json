@@ -1,0 +1,35 @@
+{
+  "name": "autenticacionusuarios",
+  "version": "1.0.0",
+  "description": "Autenticación de Usuarios con NodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samu1494/autenticacionUsuarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samu1494/autenticacionUsuarios/issues"
+  },
+  "homepage": "https://github.com/samu1494/autenticacionUsuarios#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "zod": "4.1.5"
+  },
+  "devDependencies": {
+    "standart": "^6.1.0"
+  }
+}
